@@ -97,7 +97,7 @@ export default function Activity() {
     //Replace fields with the use of the useState form for ease
     const newWord = form;
 
-    await fetch("http://localhost:4000/record/addWord", {
+    await fetch("https://novelty-test.herokuapp.com/record/addWord", {
       method: "POST",
       headers:{
         "Content-Type": "application/json",
