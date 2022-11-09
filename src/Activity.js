@@ -17,7 +17,7 @@ export default function Activity() {
   const participants2 = useRef()
 
   function getData(){
-    fetch('http://www.boredapi.com/api/activity/')
+    fetch('https://www.boredapi.com/api/activity/')
     .then(res => res.json())
     .then(json => {
         //Second Inputs 
