@@ -5,9 +5,91 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(#69E8DF, #21080A);
+  background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* 1. APP.JS PAGE */
+
+/* Flexbox containing elements*/
+.test{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 30%;
+}
+/* Spacing between cards*/
+.one{
+  margin-right: 10%;
+}
+.two{
+  margin-left: 10%;
+}
+/* Captions underneath cards*/
+.caption {
+  display: block;
+}
+.card{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+/* Div which contains top logo */
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+/* 2. ACTIVITY.JS and WORD.JS  */
+
+/* The Labels that correspond with inputs */
+.actLabel{
+  color: white;
+}
+/* The Inputs */
+.actInput{
+  margin-bottom: 2%;
+}
+#participants{
+  margin-bottom: 1%;
+}
+/* Components in Record List */
+.centerList{
+  text-align: center;
+}
+.spaceList{
+  padding-left: 2%;
+}
+.listText{
+  color: white;
+}
+.heading{
+  color: white;
+}
+/*.delete{
+  background-image: url(/public/images/DeleteButton.png);
+  background-color: transparent;
+  outline: none;
+  height: 38px;
+  width: 146px;
+  cursor: pointer;
+  border: none;
+}*/
+.buttonTest{
+  background-color: transparent;
+  cursor: pointer;
+  /*outline: none;*/
+  border-color: rgb(255, 255, 255);
+  color: white;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 2px 1px;
 }

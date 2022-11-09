@@ -1,0 +1,4 @@
+1. Achieve linear gradient for background 
+2. Create tile cards and properly place them for multiple screen viewings
+3. Align proper corresponding text (with proper fonts) to each title card ((Either create custom elements or seperate by divs))
+4. Place placeHolder logo in proper position
