@@ -24,7 +24,7 @@ export default function RecordListW() {
  // This method fetches the records from the database.
  useEffect(() => {
    async function getRecords() {
-     const response = await fetch(`https://novelty-test.herokuapp.com/recordWords/`);
+     const response = await fetch(`https://quickstart-image-zxyxla676a-uc.a.run.app/recordWords/`);
  
      if (!response.ok) {
        const message = `An error occurred: ${response.statusText}`;
@@ -43,7 +43,7 @@ export default function RecordListW() {
  
  // This method will delete a record
  async function deleteRecord(id) {
-   await fetch(`https://novelty-test.herokuapp.com/delete/${id}`, { //Must change fetch link 
+   await fetch(`https://quickstart-image-zxyxla676a-uc.a.run.app/${id}`, { //Must change fetch link 
      method: "DELETE"
    });
  

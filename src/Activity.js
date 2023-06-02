@@ -32,7 +32,7 @@ export default function Activity() {
 
     const newActivity = {...form};
 
-    await fetch("https://novelty-test.herokuapp.com/record/add", {
+    await fetch("https://quickstart-image-zxyxla676a-uc.a.run.app/record/add", {
       method: "POST",
       headers:{
         "Content-Type": "application/json",
